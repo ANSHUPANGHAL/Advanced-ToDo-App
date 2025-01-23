@@ -30,16 +30,20 @@ An advanced to-do application with enhanced features, including weather integrat
 ---
 
 ## Screenshots
+### Sign in/ Sign up
+<img width="1470" alt="Screenshot 2025-01-23 at 7 09 34 PM" src="https://github.com/user-attachments/assets/3e722a9b-cc05-4531-a9fa-59eea87af0d8" />
 
 ### Task Dashboard
 <img width="1470" alt="Screenshot 2025-01-23 at 7 12 05 PM" src="https://github.com/user-attachments/assets/90df71ec-e980-4e4b-8066-eb03e76f438e" />
 
 
 ### Weather Integration
-![Weather Integration](path-to-screenshot2.png)
+<img width="1470" alt="Screenshot 2025-01-23 at 7 13 07 PM" src="https://github.com/user-attachments/assets/197b4b47-16d9-4d52-8f7f-e8f51c7c2d8b" />
+
 
 ### Calendar Scheduling
-![Calendar Scheduling](path-to-screenshot3.png)
+<img width="1470" alt="Screenshot 2025-01-23 at 7 17 44 PM" src="https://github.com/user-attachments/assets/0a718b5f-c9d8-4248-9f06-3343d260ec41" />
+
 
 ---
 
