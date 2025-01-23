@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Advanced To-Do Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An advanced to-do application with enhanced features, including weather integration, task prioritization, calendar scheduling, and favorite task management. This project showcases modern React development techniques using Redux for state management and various other features for an enriched user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Task Management**:
+  - Add, delete, and prioritize tasks.
+  - Mark tasks as done or favorite.
+- **Weather Integration**:
+  - Fetch weather information for a selected city.
+  - Suggest outdoor activities based on weather conditions.
+- **Calendar Integration**:
+  - View and select task start and end dates using a calendar.
+- **Responsive Design**:
+  - Fully responsive UI optimized for desktop and mobile.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: For building the user interface.
+- **Redux**: For state management.
+- **Axios**: For making API requests.
+- **React-Calendar**: For date selection.
+- **CSS**: For styling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Task Dashboard
+<img width="1470" alt="Screenshot 2025-01-23 at 7 12 05 PM" src="https://github.com/user-attachments/assets/90df71ec-e980-4e4b-8066-eb03e76f438e" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Weather Integration
+![Weather Integration](path-to-screenshot2.png)
 
-### `npm run eject`
+### Calendar Scheduling
+![Calendar Scheduling](path-to-screenshot3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+Ensure you have the following installed on your system:
+- Node.js
+- npm or yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ANSHUPANGHAL/Advanced-ToDo-App.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Advanced-ToDo-App
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open the app in your browser:
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
+The project is deployed at:
+[Live Demo](https://your-deployed-url.netlify.app)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## API Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **OpenWeather API**:
+  - Provides weather data for cities.
+  - API Key: [Sign up here](https://openweathermap.org/) to obtain an API key.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribution
+Feel free to fork the repository and submit pull requests for any improvements or features you'd like to add.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
+This project is licensed under the MIT License.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
