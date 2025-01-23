@@ -1,0 +1,221 @@
+/* TaskList.css */
+
+body {
+    background-color: lightblue;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu-button-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-content {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-tab {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .menu-tab.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .calendar-container {
+    margin: 20px 0;
+  }
+  
+  .weather-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .weather-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 4px;
+  }
+  
+  .weather-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .weather-button:hover {
+    background-color: #45a049;
+  }
+  
+  .weather-info {
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border: 1px solid #90caf9;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-favorite-tasks {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .favorite-tasks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorite-task-item {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .task-table th, .task-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .task-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .task-row:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .task-row.done {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .done-task-button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .done-task-button:hover {
+    background-color: #218838;
+  }
+  
+  .done-task-button:disabled {
+    background-color: #c3e6cb;
+    cursor: not-allowed;
+  }
+  
+  .favorite-task-button {
+    padding: 5px 10px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .favorite-task-button.favorited {
+    background-color: #ff8c00;
+  }
+  
+  .favorite-task-button:hover {
+    background-color: #ff9800;
+  }
+  
+  .delete-task-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-task-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 10px;
+    }
+  
+    .task-table th, .task-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .done-task-button, .delete-task-button {
+      font-size: 12px;
+    }
+  }
+  
